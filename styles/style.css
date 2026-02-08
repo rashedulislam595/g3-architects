@@ -1,13 +1,52 @@
-
-
 .font-work-sans {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-.container{
-    max-width: 1360px;
-    margin: 0px auto;
+.container {
+  max-width: 1360px;
+  margin: 0px auto;
 }
 
+@media screen and (max-width:1480px) {
+
+  .container {
+    max-width: 1240px;
+    margin: 0px auto;
+  }
+
+  .feuture-text{
+    width: 1000px;
+    padding-left: 0px;
+  }
+
+  .feuture-img{
+    gap: 20px;
+  }
+
+  .feuture-img img{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width:1280px) {
+
+  .container {
+    max-width: 1040px;
+    margin: 0px auto;
+  }
+
+  .feuture-text{
+    width: 1000px;
+    padding-left: 0px;
+  }
+
+  .feuture-img{
+    gap: 20px;
+  }
+
+  .feuture-img img{
+    width: 45%;
+  }
+}
